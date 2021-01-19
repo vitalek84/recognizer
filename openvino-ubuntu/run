@@ -1,0 +1,4 @@
+
+
+sudo docker run -u 0  --privileged  -v /home/alex-auch/Documents/models:/tmp/shared --net=host -e DISPLAY=:0  -v /dev/video0:/dev/video0 -v /dev/video1:/dev/video1 -v /dev/media0:/dev/media0  -it openvino/ubuntu18_dev
+
